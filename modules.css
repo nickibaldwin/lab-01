@@ -1,0 +1,5 @@
+div#a, div#b, div#c, div#d, div#e, div#f, div#g, div#h, div#i {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
