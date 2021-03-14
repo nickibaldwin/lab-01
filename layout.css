@@ -1,0 +1,141 @@
+div#a {
+    height: 75px;
+    width: 480px;
+    background-color: #FEC5BB;
+    border: thin solid black;
+}
+
+div#b {
+    height: 150px;
+    width: 480px;
+    background-color:#FAE1DD;
+    border: thin solid black;
+}
+
+div#c  {
+    height: 125px;
+    width: 480px;
+    background-color:#F8EDEB;
+    border: thin solid black;
+}
+
+div#d {
+    height: 125px;
+    width: 480px;
+    background-color:#E8E8E4;
+    border: thin solid black;
+}
+
+div#e {
+    height: 250px;
+    width: 240px;
+    background-color:#D8E2DC;
+    border: thin solid black;
+    float: left;
+}
+
+div#f  {
+    height: 250px;
+    width: 240px;
+    background-color:#FFD7BA;
+    border: thin solid black;
+    float: right;
+}
+
+div#g  {
+    height: 250px;
+    width: 240px;
+    background-color: #FEC89A;
+    border: thin solid black;
+    float: left;
+}
+
+div#h  {
+    height: 250px;
+    width: 240px;
+    background-color:#ECE4DB;
+    border: thin solid black;
+    float: right;
+}
+
+div#i  {
+    height: 80px;
+    width: 480px;
+    background-color:#F8EDEB;
+    border: thin solid black;
+}
+
+@media only screen and (min-width: 768px) {
+    div#a {
+        height: 100px;
+        width: 960px;
+        background-color: #264653;
+        border: thin solid black;
+    }
+    
+    div#b {
+        height: 600px;
+        width: 200px;
+        background-color:#287271;
+        border: thin solid black;
+        float: left;
+    }
+    
+    #c-d {
+        display: flex;
+    }
+    div#c  {
+        height: 200px;
+        width: 380px;
+        background-color:#2A9D8F;
+        border: thin solid black;
+        float: right;
+    }
+    
+    div#d {
+        height: 200px;
+        width: 380px;
+        background-color:#E8E8E4;
+        border: thin solid black;
+        float: right;
+    }
+    
+    #e-f-g-h {
+        display: flex;
+    }
+    div#e {
+        height: 250px;
+        width: 190px;
+        background-color:#F1AF65;
+        border: thin solid black;
+    }
+    
+    div#f  {
+        height: 250px;
+        width: 190px;
+        background-color:#8AB17D;
+        border: thin solid black;
+    }
+    
+    div#g  {
+        height: 250px;
+        width: 190px;
+        background-color: #D8E2DC;
+        border: thin solid black;
+    }
+    
+    div#h  {
+        height: 250px;
+        width: 190px;
+        background-color:#F2AB64;
+        border: thin solid black;
+    }
+    
+    div#i  {
+        height: 150px;
+        width: 760px;
+        background-color:#E76F51;
+        border: thin solid black;
+        float: right;
+    }
+}
